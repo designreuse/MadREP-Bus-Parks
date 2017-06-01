@@ -308,168 +308,154 @@ body {
 }
 
 #refresh {
-  position: absolute;
-  cursor: pointer;
-  left: 0.5%;
-  bottom: 170px;
-  border: solid;
-  border-width: 0.1px;
-  border-color: black;
-  border-radius: 5px;
-  height: 28px;
-  width: 29px;
-  z-index: 100;
-  background-image: url('img/refresh.png');
-  background-color: #f2f2f2;
-  background-size: 21px 17px;
-  background-position: center;
-  background-repeat:no-repeat;
+    position: absolute;
+    cursor: pointer;
+    left: 11px;
+    top: 310px;
+    border: solid;
+    border-width: 0.1px;
+    border-color: gray;
+    border-radius: 5px;
+    height: 30px;
+    width: 31px;
+    z-index: 100;
+    box-shadow: 0px 0px 6px #888888;
+    background-color: white;
+    background-size: 40px 40px;
+    background-position: center;
+    background-repeat:no-repeat;
 }
-
 #refresh:hover {
-  background-color: #e6e6e6;
+    background-color: #e6e6e6;
 }
 
 #legend {
-  position: fixed;
+  position: absolute;
   left: 0%;
-  bottom: 7px;
-  height: 22.5vh;
-  width: 15vw;
-  min-height: 150px;
-  max-height: 150px;
-  min-width: 200px;
+  bottom: 2px;
+  height: 86px;
+  width: 175px;
+  max-height: 100px;
   margin-bottom: 5px;
   letter-spacing: 1.3px;
   background-color: rgba(204, 204, 204, 0.8);
   border-top-right-radius: 1em;
   border-bottom-right-radius: 1em;
-  background-size: 260px 85px;
 }
-
 #section-1 {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 7.5vh;
-  width: 100%;
-  text-align: left;
-  text-indent: 45px;
-  font-weight: bold;
-  text-shadow:
-  -1px -1px 0 #FFF,
-   1px -1px 0 #FFF,
-   -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
-  line-height: 52.5px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+    text-align: left;
+    text-indent: 45px;
+    font-weight: bold;
+    text-shadow:
+      -1px -1px 0 #FFF,
+       1px -1px 0 #FFF,
+         -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;
+    line-height: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
 }
-
 #section-1:hover {
-  cursor: pointer;
-  text-shadow:
-  -1px -1px 0 #71da71,
-   1px -1px 0 #71da71,
-   -1px 1px 0 #71da71,
-    1px 1px 0 #71da71;
+    cursor: pointer;
+    text-shadow:
+      -1px -1px 0 #71da71,
+       1px -1px 0 #71da71,
+         -1px 1px 0 #71da71,
+        1px 1px 0 #71da71;
 }
-
 #certified-rect {
-  position: absolute;
-  left: 9px;
-  top: 12.5px;
-  height: 3.75vh;
-  width: 25px;
-  border: solid;
-  border-width: thin;
-  border-color: black;
-  background-color: #71da71;
-  border-radius: 25px;
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    height: 18px;
+    width: 18px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: #71da71;
+    border-radius: 25px;
 }
-
 #gold-shovel-rect {
-  position: absolute;
-  left: 9px;
-  top: 12.5px;
-  height: 3.75vh;
-  width: 25px;
-  border: solid;
-  border-width: thin;
-  border-color: black;
-  background-color: gold;
-  border-radius: 25px;
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    height: 18px;
+    width: 18px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: gold;
+    border-radius: 25px;
 }
-
 #section-2 {
-  position: absolute;
-  top: 45px;
-  left: 0px;
-  height: 7.5vh;
-  width: 100%;
-  text-align: left;
-  text-indent: 45px;
-  font-weight: bold;
-  text-shadow:
-  -1px -1px 0 #FFF,
-   1px -1px 0 #FFF,
-   -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
-  line-height: 52.5px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size: 20px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    height: 20px;
+    width: 100%;
+    text-align: left;
+    text-indent: 45px;
+    font-weight: bold;
+    text-shadow:
+    -1px -1px 0 #FFF,
+     1px -1px 0 #FFF,
+       -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;
+    line-height: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 15px;
 }
-
 #section-2:hover {
-  cursor: pointer;
-  text-shadow:
-  -1px -1px 0 gold,
-   1px -1px 0 gold,
-   -1px 1px 0 gold,
-    1px 1px 0 gold;
+    cursor: pointer;
+    text-shadow:
+    -1px -1px 0 gold,
+     1px -1px 0 gold,
+       -1px 1px 0 gold,
+        1px 1px 0 gold;
 }
-
 #section-3 {
-  position: absolute;
-  top: 90px;
-  font-size: 20px;
-  left: 0px;
-  height: 7.5vh;
-  width: 100%;
-  text-align: left;
-  text-indent: 45px;
-  font-weight: bold;
-  text-shadow:
-  -1px -1px 0 #FFF,
-   1px -1px 0 #FFF,
-   -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
-  line-height: 52.5px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
+    position: absolute;
+    top: 60px;
+    font-size: 15px;
+    left: 0px;
+    height: 5vh;
+    width: 100%;
+    text-align: left;
+    text-indent: 45px;
+    font-weight: bold;
+    text-shadow:
+      -1px -1px 0 #FFF,
+     1px -1px 0 #FFF,
+       -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;
+    line-height: 30px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-
 #section-3:hover {
-  cursor: pointer;
-  text-shadow:
-  -1px -1px 0 #3385ff,
-   1px -1px 0 #3385ff,
-   -1px 1px 0 #3385ff,
-    1px 1px 0 #3385ff;
+    cursor: pointer;
+    text-shadow:
+      -1px -1px 0 #3385ff,
+     1px -1px 0 #3385ff,
+       -1px 1px 0 #3385ff,
+      1px 1px 0 #3385ff;
+  }
+  #regular-rect {
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    height: 18px;
+    width: 18px;
+    border: solid;
+    border-width: thin;
+    border-color: black;
+    background-color: #3385ff;
+    border-radius: 25px;
 }
-
-#regular-rect {
-  position: absolute;
-  left: 9px;
-  top: 12.5px;
-  height: 3.75vh;
-  width: 25px;
-  border: solid;
-  border-width: thin;
-  border-color: black;
-  background-color: #3385ff;
-  border-radius: 25px;
-}
-
 #park-title {
   width: 100%;
   position: absolute;
