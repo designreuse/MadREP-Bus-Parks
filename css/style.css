@@ -29,8 +29,8 @@ body {
   z-index: 1;
 }
 
-#madrep:hover {
-  cursor: pointer;
+#madrep:hover{
+  cursor:pointer;
 }
 
 #top {
