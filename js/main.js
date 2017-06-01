@@ -95,7 +95,7 @@ function getData(map) {
 			})
 		]
 	}).addTo(map);
-	
+
 	  //load the data
 	  $.ajax("data/businessParks.geojson", {
 	    dataType: "json",
@@ -271,11 +271,11 @@ function pointToLayer(feature, latlng, attributes, layer){
     }
 	});
 
-	// $('#madrep').on({
-	// 	click: function(){
-	//     	window.open('http://madisonregion.org/', '_blank');
-	//   }
-	// });
+	$('#madrep').on({
+		click: function(){
+	    	window.open('http://madisonregion.org/', '_blank');
+	  }
+	});
 
 	// variable to hold the hyperlink for the websites
   var href = feature.properties.Website_url;
